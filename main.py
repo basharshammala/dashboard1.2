@@ -52,7 +52,7 @@ with left_col :
     st.button('تسجيل الدخول ⬅️')
 
 with right_col :
-    st.image(r"image/logo2.png")
+    st.image(r"image/logo4.png")
     # st.logo(r"C:\Users\HKH\Downloads\WhatsApp_Image_2025-10-13_at_8.25.26_PM-removebg-preview.png", size = 'large')
 
 with middel_col  :
