@@ -68,13 +68,13 @@ with middel_col  :
     """, unsafe_allow_html=True)
     col1, col2, col3, col4 =  st.tabs(["خدماتنا", "عملاؤنا", "نبذة", "الأسعار"], default="نبذة")
     with col1 :
-        price()
-    with col2 :
         services()
+    with col2 :
+        customers()
     with col3 :
         about()
     with col4 :
-        customers()
+        price()
 
 
 
