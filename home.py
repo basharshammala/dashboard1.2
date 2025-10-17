@@ -1,9 +1,6 @@
 import streamlit as st
 import time
-from main import analysis_page
-st.set_page_config(
-    layout="wide"
-)
+
 st.markdown("""
 <style>
 body, [data-testid="stMarkdownContainer"] {
@@ -42,7 +39,7 @@ def price ():
 right_col, middel_col, left_col = st.columns([1,3,1])
 with left_col :
     if st.button('جرب الان ⬅️') :
-        st.switch_page(analysis_page)
+        st.switch_page('analysis.py')
 
 with right_col :
     st.image(r"image/logo5.png")
